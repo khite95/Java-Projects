@@ -1,0 +1,13 @@
+Original implementation (add to position 0),,
+ ,Push Time,Pop Time
+100000:  ,0.959,0.936
+ , ,
+Revised implementation (add to end),,
+ ,Push Time,Pop Time
+100000:,0.002,0.009
+1000000:,0.007,0.017
+ ,,
+ ---------------------------------------------------------------,,
+,,
+ 6. Why do you think the first implementation is so much worse than the second?,,
+"Because when you remove an element from the beginning, you have to go through the entire list and move them over one, which takes a while.",,

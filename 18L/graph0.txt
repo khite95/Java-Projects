@@ -1,0 +1,5 @@
+# Very simple: only define nodes
+node a
+node b c d
+node longername
+node two longer names

@@ -1,0 +1,28 @@
+# a small acyclic graph derived from a binary tree
+node root l r ll lr rl rr 
+edge root l r
+edge l ll lr
+edge r rl rr
+edge rl rll rlr
+edge ll lll llr
+edge lll llll lllr
+edge rll rlll rllr
+
+# now some sibling links
+edge l r
+edge ll lr
+edge rlll rllr
+edge llll lllr
+
+# even cousin links
+edge lllr rlll
+edge llr rll
+
+show   # set up main code for being able to do paths
+#start l
+#end rllr
+
+path root lr
+path root rllr
+
+path l rllr

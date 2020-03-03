@@ -1,0 +1,14 @@
+This assignment submission represents my personal effort on the assignment. I have 
+received no code from any other person or source that is not acknowledged below. 
+ 
+I know it is acceptable to receive technical knowledge and guidance to help me 
+complete the assignment from instructors/staff of CS415 and the PAC. If I have received any help from other sources I have briefly described the nature and the extent of the help here:
+
+
+
+
+Signed:
+ Kenneth Hite
+
+
+

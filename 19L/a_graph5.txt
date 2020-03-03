@@ -1,0 +1,16 @@
+#
+# graph5.txt  has a few more cycles
+#
+node a b c d e 
+edge a c
+edge b e 
+edge c d 
+edge d a b
+edge e d 
+
+show   # set up for batch path searches
+
+path a e  # interactive same as start/end
+          # in batch will also call findPath
+
+path d e  # interactive: last path is starting point

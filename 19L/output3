@@ -1,0 +1,113 @@
+*** Reading ------>a_graph0.txt
+-----------4 ----------
+d: 
+b: c 
+c: d 
+a: b 
+
+------------------------------------
+No path found
+No path found
+*** Reading ------>a_graph1.txt
+-----------7 ----------
+ll: 
+rl: 
+lr: 
+r: rl rr 
+root: l r 
+rr: 
+l: lr ll 
+
+------------------------------------
+No path found
+No path found
+*** Reading ------>a_graph2.txt
+-----------15 ----------
+ll: lll llr 
+llr: 
+rlll: 
+root: r l 
+lr: 
+rl: rll rlr 
+rlr: 
+l: lr ll 
+rll: rlll rllr 
+r: rl rr 
+rr: 
+rllr: 
+llll: 
+lllr: 
+lll: lllr llll 
+
+------------------------------------
+No path found
+No path found
+*** Reading ------>a_graph3.txt
+java.io.FileNotFoundException: a_graph3.txt (No such file or directory)
+*** Graph not changed ***
+-----------15 ----------
+ll: lll llr 
+llr: 
+rlll: 
+root: r l 
+lr: 
+rl: rll rlr 
+rlr: 
+l: lr ll 
+rll: rlll rllr 
+r: rl rr 
+rr: 
+rllr: 
+llll: 
+lllr: 
+lll: lllr llll 
+
+------------------------------------
+No path found
+No path found
+No path found
+*** Reading ------>a_graph4.txt
+-----------15 ----------
+ll: lr lll llr 
+llr: rll 
+rlll: rllr 
+root: l r 
+lr: 
+rl: rll rlr 
+rlr: 
+l: lr r ll 
+rll: rllr rlll 
+r: rl rr 
+rr: 
+rllr: 
+llll: lllr 
+lllr: rlll 
+lll: lllr llll 
+
+------------------------------------
+No path found
+No path found
+*** Reading ------>a_graph5.txt
+java.io.FileNotFoundException: a_graph5.txt (No such file or directory)
+*** Graph not changed ***
+-----------15 ----------
+ll: lr lll llr 
+llr: rll 
+rlll: rllr 
+root: l r 
+lr: 
+rl: rll rlr 
+rlr: 
+l: lr r ll 
+rll: rllr rlll 
+r: rl rr 
+rr: 
+rllr: 
+llll: lllr 
+lllr: rlll 
+lll: lllr llll 
+
+------------------------------------
+No path found
+GNode does not exist: a
+No path found

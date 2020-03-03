@@ -1,0 +1,21 @@
+#
+# A more complex cyclic graph
+#
+node a b c d e f g h i
+edge a c
+edge b g e
+edge c h d 
+edge d i
+edge e f d
+edge f i a
+edge g b
+edge h g
+edge i h
+
+#start a
+#end i
+
+show   # set up for batch path searches
+
+path a i
+path g h

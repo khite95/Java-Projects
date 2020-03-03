@@ -1,0 +1,17 @@
+#
+# graph4.txt  has 2 separate cycles
+#
+node a b c d e 
+edge a b d
+edge b c 
+edge c a 
+edge d e
+edge e d 
+
+show   # set up main code for being able to do paths
+path a e  # interactive same as start/end
+          # in batch will also call findPath
+
+path d e  # interactive: last path is starting point
+
+path e b  # can't

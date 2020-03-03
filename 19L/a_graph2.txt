@@ -1,0 +1,15 @@
+
+# a small binary tree
+node root l r ll lr rl rr 
+edge root l r
+edge l ll lr
+edge r rl rr
+edge rl rll rlr
+edge ll lll llr
+edge lll llll lllr
+edge rll rlll rllr
+
+show   # set up main code for being able to do paths
+
+path root rllr
+path l llr

@@ -1,0 +1,8 @@
+#
+#  Some bad input to test error handling
+#
+node
+edge a
+bad
+node a b c
+node b
